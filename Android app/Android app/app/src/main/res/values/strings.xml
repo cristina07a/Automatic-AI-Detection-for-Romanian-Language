@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="no_account">Don\'t have an account yet? Register</string>
+    <string name="have_account">Already have an account? Login</string>
+    <string name="predictions">Predictions</string>
+    <string name="history">History</string>
+    <string name="logout">Logout</string>
+    <string name="enter_text">Enter text</string>
+    <string name="verify">Check</string>
+    <string name="analyzing_text">Analyzing text…</string>
+    <string name="load_image">Load text from image</string>
+    <string name="load_pdf">Load text from PDF</string>
+    <string name="checked_text">Reviewed text:</string>
+    <string name="load_more_predictions">Load more predictions</string>
+    <string name="history_loading">History is loading…</string>
+    <string name="error">Error:</string>
+    <string name="user_not_authenticated">User is not authenticated</string>
+    <string name="no_app_for_pdf">No application found to open PDF.</string>
+    <string name="pdf_generation_error">Error generating PDF.</string>
+    <string name="ocr_error">Error extracting text:</string>
+    <string name="image_read_error">Error reading image:</string>
+    <string name="open_menu">Open menu</string>
+    <string name="connect">Login</string>
+    <string name="language">Language</string>
+    <string name="open_pdf">Open PDF</string>
+    <string name="settings">Settings</string>
+    <string name="app_language">App language</string>
+    <string name="pdf_language">Analysis language</string>
+    <string name="save">Save</string>
+    <string name="settings_saved">Preferences will take place after you restart the app.</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Conectare</string>
+    <string name="register">Înregistrare</string>
+    <string name="email">Email</string>
+    <string name="password">Parolă</string>
+    <string name="repeat_password">Repetă parola</string>
+    <string name="no_account">Nu ai încă un cont? Înregistrează-te</string>
+    <string name="have_account">Ai deja un cont? Conectează-te</string>
+    <string name="predictions">Predicții</string>
+    <string name="history">Istoric</string>
+    <string name="logout">Deconectare</string>
+    <string name="enter_text">Introdu text</string>
+    <string name="verify">Verifică</string>
+    <string name="analyzing_text">Se analizează textul…</string>
+    <string name="load_image">Încarcă text din poză</string>
+    <string name="load_pdf">Încarcă text din PDF</string>
+    <string name="checked_text">Textul verificat:</string>
+    <string name="load_more_predictions">Vezi mai multe predicții</string>
+    <string name="history_loading">Istoricul se încarcă…</string>
+    <string name="error">Eroare:</string>
+    <string name="user_not_authenticated">Utilizatorul nu este autentificat</string>
+    <string name="no_app_for_pdf">Nicio aplicație găsită pentru a deschide PDF-ul.</string>
+    <string name="pdf_generation_error">Eroare în generarea PDF-ului.</string>
+    <string name="ocr_error">Eroare la extragerea textului:</string>
+    <string name="image_read_error">Eroare la citirea imaginii:</string>
+    <string name="open_menu">Deschide meniul</string>
+    <string name="connect">Conectează-te</string>
+    <string name="language">Limba</string>
+    <string name="open_pdf">Deschide PDF</string>
+    <string name="settings">Setări</string>
+    <string name="app_language">Limba aplicației</string>
+    <string name="pdf_language">Limba raportuli</string>
+    <string name="save">Salvează</string>
+    <string name="settings_saved">Setările se vor aplica după ce vei redeschide aplicația.</string>
+
+</resources>

@@ -1,0 +1,67 @@
+[debug] [2025-04-15T10:38:27.741Z] ----------------------------------------------------------------------
+[debug] [2025-04-15T10:38:27.744Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Cristina\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-04-15T10:38:27.744Z] CLI Version:   14.1.0
+[debug] [2025-04-15T10:38:27.744Z] Platform:      win32
+[debug] [2025-04-15T10:38:27.744Z] Node Version:  v20.11.0
+[debug] [2025-04-15T10:38:27.744Z] Time:          Tue Apr 15 2025 13:38:27 GMT+0300 (Eastern European Summer Time)
+[debug] [2025-04-15T10:38:27.745Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-15T10:38:27.751Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-15T10:38:27.751Z] > authorizing via signed-in user (cristinatom2002@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Cristina\Desktop\CSR\Licenta\incercare_cu_server\2_Model TFlite\Android app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-04-15T10:41:00.995Z] Checked if tokens are valid: true, expires at: 1744716184722
+[debug] [2025-04-15T10:41:00.996Z] Checked if tokens are valid: true, expires at: 1744716184722
+[debug] [2025-04-15T10:41:00.998Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-04-15T10:41:01.518Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-04-15T10:41:01.518Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project ai-detection-88449 (AI detection) 
+[info] 
+=== Functions Setup
+[debug] [2025-04-15T10:41:01.690Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-15T10:41:01.690Z] > authorizing via signed-in user (cristinatom2002@gmail.com)
+[debug] [2025-04-15T10:41:01.690Z] [iam] checking project ai-detection-88449 for permissions ["firebase.projects.get"]
+[debug] [2025-04-15T10:41:01.691Z] Checked if tokens are valid: true, expires at: 1744716184722
+[debug] [2025-04-15T10:41:01.691Z] Checked if tokens are valid: true, expires at: 1744716184722
+[debug] [2025-04-15T10:41:01.691Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ai-detection-88449:testIamPermissions [none]
+[debug] [2025-04-15T10:41:01.691Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ai-detection-88449:testIamPermissions x-goog-quota-user=projects/ai-detection-88449
+[debug] [2025-04-15T10:41:01.691Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ai-detection-88449:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-04-15T10:41:02.505Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ai-detection-88449:testIamPermissions 200
+[debug] [2025-04-15T10:41:02.505Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ai-detection-88449:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-04-15T10:41:02.507Z] Checked if tokens are valid: true, expires at: 1744716184722
+[debug] [2025-04-15T10:41:02.507Z] Checked if tokens are valid: true, expires at: 1744716184722
+[debug] [2025-04-15T10:41:02.507Z] Checked if tokens are valid: true, expires at: 1744716184722
+[debug] [2025-04-15T10:41:02.508Z] Checked if tokens are valid: true, expires at: 1744716184722
+[debug] [2025-04-15T10:41:02.508Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/ai-detection-88449/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-04-15T10:41:02.508Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/ai-detection-88449/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/ai-detection-88449
+[debug] [2025-04-15T10:41:02.511Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/ai-detection-88449/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-04-15T10:41:02.511Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/ai-detection-88449/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/ai-detection-88449
+[debug] [2025-04-15T10:41:03.487Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/ai-detection-88449/services/runtimeconfig.googleapis.com 200
+[debug] [2025-04-15T10:41:03.487Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/ai-detection-88449/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2025-04-15T10:41:03.511Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/ai-detection-88449/services/cloudfunctions.googleapis.com 200
+[debug] [2025-04-15T10:41:03.512Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/ai-detection-88449/services/cloudfunctions.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
